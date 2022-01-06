@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.section-padding {
+  padding: 100px 0px;
+}
+.section-padding-bottom {
+  padding-bottom: 100px;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 5px;
+}
+.title h1 span {
+  color: #4fbdba;
+}
+
+.title {
+  border-left: 4px solid #35858b;
+  padding-left: 10px;
+}
+
+.half-width p {
+  font-size: 20px;
+  padding: 20px 0px;
+}
+.half-width .hero-img img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-right: 20px;
+}
+
+button {
+  background: #072227;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px solid #072227;
+  color: #fff;
+  font-family: "Alata", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+p.scroll-down {
+  padding-top: 50px;
+}
+.blue-green {
+  color: #4fbdba;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section-title h1 {
+  font-size: 50px;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+}
+
+.box {
+  box-shadow: 0px 0px 5px 0px #eeeeee5e;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+
+.box img {
+  width: 40%;
+  padding-bottom: 20px;
+}
+
+.box h3 {
+  font-family: "Alata", sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.box p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.box-color-1 {
+  background: #e8eaf6;
+}
+.box-color-2 {
+  background: #ede7f6;
+}
+.box-color-3 {
+  background: #e3f2fd;
+}
+
+.content h1 {
+  font-family: "Alata", sans-serif;
+  font-size: 40px;
+}
+
+.content h1 span {
+  font-size: 45px;
+}
+
+.content-img-right img {
+  width: 60%;
+  margin-right: auto;
+  display: block !important;
+}
+.content-img-left img {
+  width: 60%;
+  margin-left: auto;
+  display: block !important;
+}
+
+.parallax-bg {
+  background-image: url(images/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 100px 0px;
+}
+
+.parallax-text {
+  text-align: center;
+  color: #fff;
+}
+.parallax-text h2 {
+  font-size: 40px;
+  font-family: "Alata", sans-serif;
+  padding: 30px 0px;
+}
+.parallax-text p {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+button.btn-color {
+  background: #4fbdba;
+  color: #000;
+}
+
+footer {
+  padding: 100px 0px;
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+footer h1 {
+  font-size: 40px;
+  font-family: "Alata", sans-serif;
+  padding-bottom: 20px;
+}
+
+footer h1 span {
+  color: aqua;
+}
